@@ -38,7 +38,7 @@ export default function App() {
       <input
         onChange={fruitInputHandler}
         placeholder="Enter the fruit or select from the list given below."
-      ></input>
+      />
       <h2> {meaning}</h2>
       <h3>fruits we know</h3>
       {fruitWeKnow.map(function (fruit) {
