@@ -24,7 +24,7 @@ export default function App() {
     var userInput = event.target.value;
     var meaning = fruitDictionary[userInput];
     if (meaning === undefined) {
-      meaning = " Sorry! we don't have this in our daabase";
+      meaning = " Sorry! we don't have this in our database";
     }
     setMeaning(meaning);
   }
