@@ -35,7 +35,10 @@ export default function App() {
   return (
     <div className="App">
       <h2>Know Fruits</h2>
-      <input onChange={fruitInputHandler} />
+      <input
+        onChange={fruitInputHandler}
+        placeholder="Enter the fruit or select from the list given below."
+      ></input>
       <h2> {meaning}</h2>
       <h3>fruits we know</h3>
       {fruitWeKnow.map(function (fruit) {
