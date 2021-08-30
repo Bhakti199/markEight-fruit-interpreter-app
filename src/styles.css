@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+:root {
+  --primary-color: #a5b4fc;
+  --grey-color: #dbeafe;
+}
+.App {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+body {
+  background-color: var(--primary-color);
+}
+input {
+  padding: 1rem;
+  width: 70%;
+  background-color: var(--grey-color);
+}
